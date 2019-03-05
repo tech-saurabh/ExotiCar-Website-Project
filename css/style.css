@@ -102,7 +102,9 @@ body{
 	text-transform: uppercase;
 	 text-decoration: none;
 }
-
+.main-nav li a:hover{
+	color:red;
+}
 
 /*=========== MAIN ==================*/
 /*=========== BANNER ==================*/
@@ -149,6 +151,12 @@ body{
 	margin:0 auto;
 
 }
+
+.learn-more:hover {
+	box-shadow: inset 0 0 50px rgba(0,0,0,0.5);
+	border: 1px solid #ff0000;
+}
+
 
 /*=========== ARTICLES ==================*/
 
@@ -213,11 +221,60 @@ h2::after{
 
 .page-footer{
 	background: #111111;
-
+    padding-top: 25px;
 
 }
 
 .footer-col{
 	width: 25%;
 	float: left;
+}
+
+.page-footer h3{
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.page-footer h3::after {
+	content: '.';
+	font-size: 0;
+	width: 90%;
+	height: 1px;
+	display: block;
+	background:#292929;
+	margin:15px 0;
+}
+
+.page-footer li{
+	font-size: 13px;
+	color:#999;
+	line-height: 1.6;
+}
+
+.copy{
+
+	color:#585858;
+	margin-top: 32px;
+
+}
+
+.social a{
+	display:block;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background: black;
+	color:white;
+	box-sizing: border-box;
+	padding-right: 10px;
+
+}
+.social a:hover {
+	background: #fff;
+	color: #ff0000;
+}
+
+.social li{
+	display:inline-block;
+
+
 }
